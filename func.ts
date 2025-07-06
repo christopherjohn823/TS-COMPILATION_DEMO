@@ -1,7 +1,11 @@
-function add(a: number, b: number): number {
-  let addition: number = a + b;
-  console.log(addition);
-    return addition;
+function findEven(a: number): number {
+  let even: number = a / 2;
+    if (even === 0){
+      console.log("Number is even")
+    }
+    else 
+      console.log("Number is odd");
+    return even;
 }
 
-add(2,4);
+findEven(9);
