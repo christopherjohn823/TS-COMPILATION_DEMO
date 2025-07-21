@@ -7,4 +7,5 @@ function greet(nameOrAge: string | number): string {
     return `You are ${nameOrAge} years old.`;
   }
 }
-console.log(greet('Alice'));
+//console.log(greet('Alice'));
+console.log(greet(30));
