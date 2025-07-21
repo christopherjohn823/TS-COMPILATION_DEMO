@@ -18,3 +18,4 @@ console.log(scores);
 console.log(usersarr.map((user) => user.toUpperCase()));
 console.log(usersarr.find((user) => (user)=== 'john'));
 usersarr.forEach((user) => console.log(user));
+console.log(usersarr.map((user) => user.replace('john', 'james')));
