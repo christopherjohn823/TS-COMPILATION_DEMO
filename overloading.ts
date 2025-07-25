@@ -1,6 +1,6 @@
 // function greet(name: string): string;
 // function greet(age: number): string;
-function greet(nameOrAge: string | number): string {
+function greetss(nameOrAge: string | number): string {
   if (typeof nameOrAge === 'string') {
     return `Hello, ${nameOrAge}!`;
   } else {
@@ -8,4 +8,4 @@ function greet(nameOrAge: string | number): string {
   }
 }
 //console.log(greet('Alice'));
-console.log(greet(30));
+console.log(greetss(30));
